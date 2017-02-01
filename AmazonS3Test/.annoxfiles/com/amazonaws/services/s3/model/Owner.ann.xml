@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="Owner">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="OwnerType" propOrder="displayName id "/>
+  <jaxb:XmlRootElement name="Owner" namespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket"/>
+  <annox:field name="displayName">
+    <jaxb:XmlElement name="DisplayName" namespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket"/>
+  </annox:field>
+  <annox:field name="id">
+    <jaxb:XmlElement name="Id" namespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket"/>
+  </annox:field>
+</annox:class>

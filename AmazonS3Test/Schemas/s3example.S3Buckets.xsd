@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" version="1.0" targetNamespace="www.tibco.com/plugin/java/xmlSchema/s3example.S3Buckets" xmlns:tns="www.tibco.com/plugin/java/xmlSchema/s3example.S3Buckets" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="S3Buckets" type="tns:S3BucketsType"/>
+
+  <xs:complexType name="S3BucketsType">
+    <xs:sequence>
+      <xs:element name="BucketName" type="xs:string" minOccurs="0"/>
+      <xs:element name="CreationDate" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="OwnerDisplayName" type="xs:string" minOccurs="0"/>
+      <xs:element name="Ownerid" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+

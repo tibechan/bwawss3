@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_PysJMOgOEeac4s7z0o-nBA" targetNamespace="http://tns.tibco.com/bw/composite/AmazonS3Test" name="AmazonS3Test" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_QAWxwOgOEeac4s7z0o-nBA" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QAdfcOgOEeac4s7z0o-nBA" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QAfUoOgOEeac4s7z0o-nBA" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QAiX8OgOEeac4s7z0o-nBA" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QAk0MOgOEeac4s7z0o-nBA" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QAnQcOgOEeac4s7z0o-nBA" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QApFoOgOEeac4s7z0o-nBA" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QArh4OgOEeac4s7z0o-nBA" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QAulMOgOEeac4s7z0o-nBA" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_DlLXUOi6EeaJcrgbquNlLQ" name="/awskey/key" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_FvMX0Oi6EeaJcrgbquNlLQ" name="/awskey/secret" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_P8-GkOgOEeac4s7z0o-nBA" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_P8-GkegOEeac4s7z0o-nBA" processName="amazons3test.Process"/>
+  </sca:component>
+</sca:composite>

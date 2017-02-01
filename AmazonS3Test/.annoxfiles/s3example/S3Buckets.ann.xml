@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="S3Buckets">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="S3BucketsType" propOrder="BucketName creationDate ownerDisplayName ownerid "/>
+  <jaxb:XmlRootElement name="S3Buckets" namespace="www.tibco.com/plugin/java/xmlSchema/s3example.S3Buckets"/>
+  <annox:field name="BucketName">
+    <jaxb:XmlElement name="BucketName" namespace="www.tibco.com/plugin/java/xmlSchema/s3example.S3Buckets"/>
+  </annox:field>
+  <annox:field name="creationDate">
+    <jaxb:XmlElement name="CreationDate" namespace="www.tibco.com/plugin/java/xmlSchema/s3example.S3Buckets"/>
+  </annox:field>
+  <annox:field name="ownerDisplayName">
+    <jaxb:XmlElement name="OwnerDisplayName" namespace="www.tibco.com/plugin/java/xmlSchema/s3example.S3Buckets"/>
+  </annox:field>
+  <annox:field name="ownerid">
+    <jaxb:XmlElement name="Ownerid" namespace="www.tibco.com/plugin/java/xmlSchema/s3example.S3Buckets"/>
+  </annox:field>
+</annox:class>

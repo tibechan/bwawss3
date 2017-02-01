@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AmazonS3Test Module
+Bundle-SymbolicName: AmazonS3Test
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .,.annoxfiles/
+Bundle-Vendor: TIBCO Software Inc.
+Export-Package: s3example
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
+ com.tibco.bw.palette; filter:="(name=bw.java)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.amazons3clientconfiguration)"
+TIBCO-BW-Version: 6.3.2 V30 2016-04-28
+Import-Package: com.amazonaws;version="1.10.49",
+ com.amazonaws.auth;version="1.10.49",
+ com.amazonaws.services.s3;version="1.10.49",
+ com.amazonaws.services.s3.internal;version="1.10.49",
+ com.amazonaws.services.s3.model;version="1.10.49"
+TIBCO-BW-ApplicationModule: META-INF/module.bwm
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:amazons3="http://ns.tibco.com/bw/sharedresource/amazons3" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_U0AG8egOEeac4s7z0o-nBA" name="amazons3test.AmazonConnectionResource" type="amazons3:Amazons3ClientConfiguration">
+  <jndi:configuration xsi:type="amazons3:Amazons3ClientConfiguration" xmi:id="_U0AG8ugOEeac4s7z0o-nBA" accessKey="AKIAJ2WT5V5BC2JNZUXQ" secretkey="#!+/GPrhFcMrDt3+H9fs/fOH7p1Np9K+BKakpmDWAkPN6Ybz1dzb8U5Qu7OzP4YqGu5bAodjCBdOE5F0CWtnlp2rFHLX2yFCeUWKeC+fTcIEkO0XidH2O8vmEkAunTRoyT"/>
+</jndi:namedResource>

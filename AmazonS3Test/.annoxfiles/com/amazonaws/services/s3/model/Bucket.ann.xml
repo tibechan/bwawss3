@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<annox:class xmlns:annox="http://annox.dev.java.net" xmlns:jaxb="http://annox.dev.java.net/javax.xml.bind.annotation" name="Bucket">
+  <jaxb:XmlAccessorType value="NONE"/>
+  <jaxb:XmlType name="BucketType" propOrder="creationDate name owner "/>
+  <jaxb:XmlRootElement name="Bucket" namespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket"/>
+  <annox:field name="creationDate">
+    <jaxb:XmlElement name="CreationDate" namespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket"/>
+  </annox:field>
+  <annox:field name="name">
+    <jaxb:XmlElement name="Name" namespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket"/>
+  </annox:field>
+  <annox:field name="owner">
+    <jaxb:XmlElement name="Owner" namespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket"/>
+  </annox:field>
+</annox:class>

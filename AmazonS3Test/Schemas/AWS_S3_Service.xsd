@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema elementFormDefault="qualified" version="1.0" targetNamespace="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket" xmlns:tns="www.tibco.com/plugin/java/xmlSchema/com.amazonaws.services.s3.model.Bucket" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="Bucket" type="tns:BucketType"/>
+
+  <xs:element name="Owner" type="tns:OwnerType"/>
+
+  <xs:complexType name="BucketType">
+    <xs:sequence>
+      <xs:element name="CreationDate" type="xs:dateTime" minOccurs="0"/>
+      <xs:element name="Name" type="xs:string" minOccurs="0"/>
+      <xs:element ref="tns:Owner" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="OwnerType">
+    <xs:sequence>
+      <xs:element name="DisplayName" type="xs:string" minOccurs="0"/>
+      <xs:element name="Id" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+
